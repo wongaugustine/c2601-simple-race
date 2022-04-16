@@ -1,0 +1,36 @@
+/* a very basic reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* our racetrack will be 95% of the width of the screen and have a green border*/
+ul{
+    width: 95%;
+    border: 1px solid green;
+}
+/* all of our racers will be 30x30 and have a black border*/
+li{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+/*setting the font sizes for the title elements*/
+h1{
+    font-size: 2em;
+}
+h2, h3{
+    font-size: 1.7em;
+}
+
+section p{
+    font-size: 1.5em;
+}
+
+.broken{
+    transform: scale(0.2);
+}
+button{
+    font-size: 1em;
+}
